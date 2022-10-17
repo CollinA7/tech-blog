@@ -8,3 +8,5 @@ User.hasMany(Post, {
 Post.hasMany(User, {
     foreignKey: 'post_id'
 })
+
+module.exports = { User, Post };

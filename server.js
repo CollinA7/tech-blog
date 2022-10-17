@@ -13,8 +13,7 @@ const PORT = process.env.PORT || 3001;
 // app.set ('view engine', 'handlebars');
 
 // app.use(express.static(path.join(__dirname, 'public')));
-// app.use(require('./'));
 
 sequelize.sync({ force: true }).then(() => {
-    app.listen(PORT, () => console.log(`Now listening on port ${PORT}`))
+    app.listen(PORT, () => console.log(`Now listening on port http://localhost:${PORT}/`))
 })

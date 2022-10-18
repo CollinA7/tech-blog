@@ -18,6 +18,10 @@ router.get('/', (req, res) => {
     //     posts,
     // });
     res.render('homepage')
+});
+
+router.get('/login', (req, res) => {
+    res.render('login');
 })
 
 

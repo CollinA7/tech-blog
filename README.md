@@ -11,8 +11,6 @@
 
   - [Usage](#usage)
 
-  - [Licenses](#license)
-  
   ## Installation
   
   launch the application from the link provided below
@@ -23,11 +21,7 @@
   
   ## Credits
   
-  contact me Directly with for any questions for contributions
-  
-  ## Tests
-
-  nope
+  contact me directly with for any questions for contributions
 
   ## Github link
 
